@@ -1,0 +1,46 @@
+{
+  "name": "vanilla-js-spa",
+  "version": "1.0.0",
+  "description": "A single page application written solely in Vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js",
+    "test": "jest -c ./config/jest.config.js --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judeWoo/vanilla-js-spa.git"
+  },
+  "author": "Jude Hokyoon Woo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judeWoo/vanilla-js-spa/issues"
+  },
+  "homepage": "https://github.com/judeWoo/vanilla-js-spa#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "jest": "^26.6.3",
+    "jest-transform-stub": "^2.0.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-middleware": "^4.0.2",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {}
+}
